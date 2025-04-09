@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestování po světě</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cestování po světě</h1>
+        <p>Objevuj nové destinace a inspiruj se pro své cesty!</p>
+    </header>
+
+    <nav>
+        <a href="#blog">Blog</a>
+        <a href="#destinace">Destinace</a>
+        <a href="#tipy">Cestovatelské tipy</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Čti o mých dobrodružstvích a zjisti, jak plánovat svou další cestu. Tady najdeš tipy, zkušenosti a osobní příběhy z cest!</p>
+        <ul>
+            <li><a href="#">Jak přežít první sólo cestu do Asie</a></li>
+            <li><a href="#">Top 5 míst, která musíte navštívit v Evropě</a></li>
+            <li><a href="#">Cestování s malým rozpočtem: Moje zkušenosti</a></li>
+        </ul>
+    </section>
+
+    <section id="destinace">
+        <h2>Oblíbené destinace</h2>
+        <p>Prozkoumej některé z mých oblíbených destinací. Každé místo má svou unikátní atmosféru a kouzlo!</p>
+        <ul>
+            <li><a href="#">Island – Krásy přírody a sopky</a></li>
+            <li><a href="#">Japonsko – Tradiční kultura a moderní města</a></li>
+            <li><a href="#">Taj Mahal v Indii – Historie a majestátnost</a></li>
+            <li><a href="#">Barcelonu – Město architektury a pláží</a></li>
+        </ul>
+    </section>
+
+    <section id="tipy">
+        <h2>Cestovatelské tipy</h2>
+        <p>Chceš se stát lepším cestovatelem? Tady jsou některé moje nejlepší tipy, jak cestovat efektivně a bezpečně.</p>
+        <ul>
+            <li>Jak si sbalit kufr pro dlouhou cestu</li>
+            <li>Nejlepší aplikace pro plánování výletů</li>
+            <li>Jak najít levné letenky</li>
+        </ul>
+    </section>
+
+    <section id="galerie" class="gallery">
+        <h2>Galerie</h2>
+        <p>Podívej se na některé z mých fotografií z cest. Každé místo má svou jedinečnou krásu!</p>
+        <img src="https://via.placeholder.com/800x400" alt="Fotografie 1">
+        <img src="https://via.placeholder.com/800x400" alt="Fotografie 2">
+        <img src="https://via.placeholder.com/800x400" alt="Fotografie 3">
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Chceš se zeptat nebo se podělit o své zážitky? Napiš mi!</p>
+        <form action="mailto:tvujemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Jméno:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Zpráva:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Odeslat">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cestování po světě | Všechna práva vyhrazena</p>
+    </footer>
+
+</body>
+</html>
